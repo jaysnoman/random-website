@@ -1,0 +1,71 @@
+h1 {
+    color: rgb(46, 110, 113);
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+  }
+  
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header img {
+    width: 100px;
+    height: 100px;
+    margin-left: 10px; /* Adjusts the space between the h1 and the image */
+}
+
+.header h1 {
+    margin: 0; /* Resets any default margin on h1 */
+    padding: 0; /* Resets any default padding on h1 */
+}
+
+.google-button {
+    width: 120px;
+    height: 40px;
+    background-color: #12D4F2;
+    border: none;
+    color: white;
+    box-shadow: 0 4px 16px rgba(0, 172, 240, 0.3);
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.google-button:hover {
+    cursor: pointer;
+    background: #11a3ba;
+}
+
+.naver-button {
+    width: 120px;
+    height: 40px;
+    background-color: #03c75a;
+    border: none;
+    color: white;
+    box-shadow: 0 4px 16px rgba(0, 255, 68, 0.3);
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.naver-button:hover {
+    cursor: pointer;
+    background: #03873e;
+}
+
